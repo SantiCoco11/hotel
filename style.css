@@ -61,9 +61,10 @@ p {
 
 .container-nav {
     display: flex;
-    padding: 10px;
-    height: 50px;
+    padding: 30px;
+    height: 70px;
     background-color: rgb(238, 91, 91);
+    background-image: url("fotos/foto.jpeg");
 }
 
 .navbar {
