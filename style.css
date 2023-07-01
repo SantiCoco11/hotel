@@ -1,5 +1,5 @@
 body {
-    background-color: #ccf70e;
+    background-color: #f2ffb1;
     color: rgb(44, 40, 40);
 }
 
@@ -57,14 +57,15 @@ p {
     text-decoration: none;
     border-radius: 3px;
     justify-content: center;
-  }
+}
 
 .container-nav {
     display: flex;
     padding: 30px;
     height: 70px;
     background-color: rgb(238, 91, 91);
-    background-image: url("fotos/foto.jpeg");
+    background-image: url("fotos/foto2.jpeg");
+    opacity: 0.8;
 }
 
 .navbar {
@@ -78,7 +79,7 @@ p {
     align-items: center;
 }
 
-li>a {
+li > a {
     padding: 8px 24px;
 }
 
@@ -87,7 +88,9 @@ li {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    font-weight: bold;
+    /* Otras propiedades de estilo que ya tenías */
+    color: #000000;
     text-decoration: none;
 }
 
@@ -105,35 +108,32 @@ a {
         flex: 100%;
     }
 
+    .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+    }
 
-.button-menu-toggle {
-    display: block;
-    background-color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 0 24px;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 20px;
+    .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgba(20, 20, 20, 0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap: 70px;
+        font-size: 40px;
+    }
 }
-
-.nav-links.nav-links-responsive {
-    position: absolute;
-    display: flex;
-    background-color: rgba(20,20,20,0.95);
-    width: 100%;
-    height: 100%;
-    top: 70px;
-    left: 0;
-    flex-direction: column;
-    padding-top: 200px;
-    align-items: center;
-    gap: 70px;
-    font-size: 40px;
-}
-
-}
-
 
 .about-image {
     display: flex;
@@ -145,7 +145,7 @@ a {
 .about-image img {
     border-radius: 10%;
     box-shadow: 10px 10px 10px 10px blue;
-    margin-bottom: 10px; /* Ajusta el valor según tu preferencia */
+    margin-bottom: 10px;
 }
 
 .video {
@@ -159,13 +159,14 @@ a {
     align-items: center;
     border: 1px solid black;
     border-radius: 10%;
-    padding: 20px; /* Agrega un espacio interno al contenedor */
-    max-width: 200px; /* Establece un ancho máximo para el contenedor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
-    box-sizing: border-box; /* Asegura que el ancho y alto incluyan el borde y el padding */
+    padding: 20px;
+    max-width: 200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-ul, li {
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -185,7 +186,7 @@ ul.slider li {
     width: inherit;
     height: inherit;
     background-color: white;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
 ul.slider li img {
@@ -210,7 +211,8 @@ ul.slider li:target {
     display: inline-block;
     text-align: center;
 }
-.menu-slider li a { 
+
+.menu-slider li a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -221,3 +223,26 @@ ul.slider li:target {
     font-size: 20px;
     border-radius: 100%;
 }
+
+/* ...otros estilos... */
+
+.whatsapp-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* ...otros estilos... */
