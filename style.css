@@ -146,6 +146,8 @@ a {
     border-radius: 10%;
     box-shadow: 10px 10px 10px 10px blue;
     margin-bottom: 10px;
+    width: 100%; /* Añadido para que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Añadido para mantener la proporción de la imagen */
 }
 
 .video {
@@ -246,3 +248,7 @@ ul.slider li:target {
 }
 
 /* ...otros estilos... */
+.about-image img {
+    width: 100%;
+    height: auto;
+}
