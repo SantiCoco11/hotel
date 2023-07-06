@@ -248,7 +248,13 @@ ul.slider li:target {
 }
 
 /* ...otros estilos... */
-.about-image img {
+/*.about-image img {
     width: 100%;
     height: auto;
+}*/
+
+.about-image img {
+    width: 50%;
+    height: 50; /* Establece aquí la altura deseada para tus imágenes */
+    object-fit: contain;/* Ajusta la imagen manteniendo su relación de aspecto y recortándola si es necesario */
 }
