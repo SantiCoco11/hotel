@@ -248,13 +248,30 @@ ul.slider li:target {
 }
 
 /* ...otros estilos... */
-/*.about-image img {
+.about-image img {
     width: 100%;
     height: auto;
-}*/
-
-.about-image img {
-    width: 50%;
-    height: 50; /* Establece aquí la altura deseada para tus imágenes */
-    object-fit: contain;/* Ajusta la imagen manteniendo su relación de aspecto y recortándola si es necesario */
 }
+
+/* ...otros estilos... */
+
+.facebook-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.facebook-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #266fcf;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* ...otros estilos... */
